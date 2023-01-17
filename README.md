@@ -3,7 +3,7 @@
 Generate text for Kirby CMS (https://getkirby.com/) articles with OpenAI APIs (field & block item).
 
 **Features:**
-- Enable the OpenAI API call to retrieve generated text
+- Enable the OpenAI API call to retrieve generated text using `text-davinci-003` model
 - Custom field with prompt (questions)
 - Block item that reuse the custom field
 - Saving the prompts (questions) for reuse its
