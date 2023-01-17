@@ -34,26 +34,31 @@ Please consult the link for getting Organization ID: https://beta.openai.com/acc
 
 Just edit file:
 ```
-/site/plugins/openai-textgenerator-field/index.php
+/site/plugins/openai-textgenerator-field/src/config/options.php
 ```
 and complete the settings:
 ```
-'options' => [
-      'openaiapikey' => '', //your OpenAI API key
-      'openaiorganization' => '', //your organization ID
-      'max_tokens' => 4000, //max_tokens variable according with your OpenAI package
-      'temperature' => 0.7,
-   ],
+[
+  'openaiapikey' => '', //your OpenAI API key
+  'openaiorganization' => '', //your organization ID
+  'max_tokens' => 4000, //max_tokens variable according with your OpenAI package
+  'temperature' => 0.7,
+];
 ```
-Please consult the link for understand the temperature variable in completions API: https://beta.openai.com/docs/api-reference/completions/create#completions/create-temperature
+Please consult the link for understand the `temperature` variable in completions API: https://beta.openai.com/docs/api-reference/completions/create#completions/create-temperature
 
 ### Prerequisites
 
 If you're testing locally, the plugin is using php curl function. You need to ensure that cacert.pem certificate is installed.
 1. Download the latest cacert.pem from https://curl.se/ca/cacert.pem
-2. Add the '--cacert /path/to/cacert.pem' option to the curl command to tell curl where the local Certificate Authority file is.
-3. (or) Create or add to a '.curlrc' file the line: cacert = /path/to/cacert.pem See 'man curl', the section about the '-K, --config <file>' section for information about where curl looks for this file.
-4. (or if using php) Add the following line to php.ini: (if this is shared hosting and you don't have access to php.ini then you could add this to .user.ini in public_html).
+2. Add the following line to php.ini: 
+``` 
+[curl]
+; A default value for the CURLOPT_CAINFO option. This is required to be an
+; absolute path.
+curl.cainfo = your full path\cacert.pem
+```
+(if this is shared hosting and you don't have access to php.ini then you could add this to .user.ini in public_html).
 
 ## 3. Setup
 

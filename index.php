@@ -1,11 +1,6 @@
 <?php
 Kirby::plugin('raduhoria/openai-textgenerator-field', [
-   'options' => [
-      'openaiapikey' => '',
-      'openaiorganization' => '',
-      'max_tokens' => 4000,
-      'temperature' => 0.7,
-   ],
+   'options' => require 'src/config/options.php',
    'blueprints' => [
       'blocks/aitext' => __DIR__ . '/blueprints/blocks/aitext.yml',
    ],
