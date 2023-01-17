@@ -1,0 +1,7 @@
+name: OpenAI text generator
+icon: text
+
+fields:
+  aiarticle:
+    type: openaitextgeneratorfield
+    label:

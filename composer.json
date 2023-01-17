@@ -1,0 +1,30 @@
+{
+  "name": "raduhoria/openai-textgenerator-field",
+  "description": "Kirby CMS OpenAI text generator",
+  "type": "kirby-plugin",
+  "keywords": [
+    "kirby3","kirby-cms","kirby-plugin","OpenAI","GPT-3"
+  ],
+  "homepage:": "https://github.com/raduhoria/openai-textgenerator-field",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Horia Radu",
+      "email": "radu.horia@gmail.com"
+    }
+  ],
+  "support": {
+    "docs": "https://github.com/raduhoria/openai-textgenerator-field/blob/main/README.md",
+    "source": "https://github.com/raduhoria/openai-textgenerator-field"
+  },
+  "require": {
+    "php": ">=7.4",
+    "getkirby/composer-installer": "^1.1"
+  },
+  "config": {
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  }
+}
