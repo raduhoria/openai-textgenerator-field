@@ -6,7 +6,7 @@
     "kirby3","kirby-cms","kirby-plugin","OpenAI","GPT-3"
   ],
   "homepage:": "https://github.com/raduhoria/openai-textgenerator-field",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "authors": [
     {
