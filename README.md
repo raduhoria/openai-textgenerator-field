@@ -1,6 +1,6 @@
-# Kirby – OpenAI generated article text
+# Kirby CMS – OpenAI generated article text
 
-Generate text for Kirby CMS articles with OpenAI APIs (field & block item).
+Generate text for Kirby CMS (https://getkirby.com/) articles with OpenAI APIs (field & block item).
 
 **Features:**
 - Enable the OpenAI API call to retrieve generated text
@@ -12,9 +12,9 @@ Generate text for Kirby CMS articles with OpenAI APIs (field & block item).
 
 > This plugin is completely free and published under the MIT license. However, if you are using it in a commercial project and want to help me keep up with maintenance, please consider to **[❤️ sponsor me](https://github.com/sponsors/horia22)** for securing the continued development of the plugin.
 
-![](readmeimages/Screenshot 2023-01-17 122425.png)
-![](readmeimages/Screenshot 2023-01-17 122511.png)
-![](readmeimages/Screenshot 2023-01-17 143949.png)
+![Block item](https://github.com/raduhoria/openai-textgenerator-field/blob/main/readmeimages/Screenshot%202023-01-17%20122425.png)
+![](https://github.com/raduhoria/openai-textgenerator-field/blob/main/readmeimages/Screenshot%202023-01-17%20122511.png)
+![](https://github.com/raduhoria/openai-textgenerator-field/blob/main/readmeimages/Screenshot%202023-01-17%20143949.png)
 ****
 
 ## 1. Installation
