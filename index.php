@@ -1,6 +1,5 @@
 <?php
 Kirby::plugin('raduhoria/openai-textgenerator-field', [
-   'options' => require 'src/config/options.php',
    'blueprints' => [
       'blocks/aitext' => __DIR__ . '/blueprints/blocks/aitext.yml',
    ],

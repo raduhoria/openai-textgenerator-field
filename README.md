@@ -34,11 +34,11 @@ Please consult the link for getting Organization ID: https://beta.openai.com/acc
 
 Just edit file:
 ```
-/site/plugins/openai-textgenerator-field/src/config/options.php
+/site/config/config.php
 ```
-and complete the settings:
+and add the block:
 ```
-[
+'raduhoria.openai-textgenerator-field' => [
   'openaiapikey' => '', //your OpenAI API key
   'openaiorganization' => '', //your organization ID
   'max_tokens' => 4000, //max_tokens variable according with your OpenAI package
