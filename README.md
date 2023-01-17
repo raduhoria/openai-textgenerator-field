@@ -12,6 +12,9 @@ Generate text for Kirby CMS articles with OpenAI APIs (field & block item).
 
 > This plugin is completely free and published under the MIT license. However, if you are using it in a commercial project and want to help me keep up with maintenance, please consider to **[❤️ sponsor me](https://github.com/sponsors/horia22)** for securing the continued development of the plugin.
 
+![](readmeimages/Screenshot 2023-01-17 122425.png)
+![](readmeimages/Screenshot 2023-01-17 122511.png)
+![](readmeimages/Screenshot 2023-01-17 143949.png)
 ****
 
 ## 1. Installation
